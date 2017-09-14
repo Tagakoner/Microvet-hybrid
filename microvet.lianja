@@ -2,7 +2,7 @@
 <app>
 <appproperties>
 <xamlversion>1.1</xamlversion>
-<appbuildtype>Debug</appbuildtype>
+<appbuildtype>Release</appbuildtype>
 <apptitle></apptitle>
 <appsidebarcategory>General</appsidebarcategory>
 <appsidebarcaption>microvet</appsidebarcaption>
@@ -32,7 +32,7 @@
 <httpport>8002</httpport>
 <runtimehttpport>8003</runtimehttpport>
 <httpnodename>127.0.0.1</httpnodename>
-<httpenableservices>1</httpenableservices>
+<httpenableservices>0</httpenableservices>
 <webheadericon>Default</webheadericon>
 <customwebheadericon>Default</customwebheadericon>
 <usessmarteditor>0</usessmarteditor>
@@ -41,7 +41,7 @@
 <electron_buildtype>Debug</electron_buildtype>
 <electron_name></electron_name>
 <electron_productname></electron_productname>
-<electron_version></electron_version>
+<electron_version>1.6.5</electron_version>
 <electron_description></electron_description>
 <electron_author></electron_author>
 <electron_appid></electron_appid>
@@ -49,7 +49,7 @@
 <electron_homepage></electron_homepage>
 <electron_license></electron_license>
 <electron_copyright></electron_copyright>
-<electron_nodename></electron_nodename>
+<electron_nodename>http://127.0.0.1:8001</electron_nodename>
 <electron_title></electron_title>
 <localecurrencycharacter>$</localecurrencycharacter>
 <localeseparatorcharacter>,</localeseparatorcharacter>
@@ -77,11 +77,10 @@
 <apppublisherusername></apppublisherusername>
 <apppublisherpassword></apppublisherpassword>
 <apppublishercopydatabase>false</apppublishercopydatabase>
-<apppublisherpemfile></apppublisherpemfile>
 <appserverlocation></appserverlocation>
 <appservertype></appservertype>
 <appserveruser></appserveruser>
-<appserverdatabase>microvet_sqlserver</appserverdatabase>
+<appserverdatabase>southwind</appserverdatabase>
 <appserverpassword></appserverpassword>
 <deferredload>false</deferredload>
 <addblankformsection>false</addblankformsection>
@@ -285,7 +284,6 @@
     <applyrulesonchange>false</applyrulesonchange>
     <tilecategory>Select a Page</tilecategory>
     <tilesize>1x1</tilesize>
-    <tileorder>1</tileorder>
     <tilebackcolor>#1c1c1c</tilebackcolor>
     <tileforecolor>#ffffff</tileforecolor>
     <loginpage>false</loginpage>
